@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300&display=swap');
+body
+{
+	font-family:"Quicksand", "Inter",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:16px;
+	line-height: 1.5rem
+	
+
+}* {box-sizing: border-box;
+scroll-behavior: smooth}
+.container {width: 80%; margin: auto;
+align-items: flex-end; justify-content: center}
+.row {display: flex}
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 { width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+[class*="col-"]/*{
+border: 1px solid red;
+padding: 15px}*/
+
+.bg-primary {background-color: antiquewhite}/* màu cho nền*/
+.bg-footer {background: #BDB6B6} /* màu cho chân trang*/
+.img-100 {width: 100%;height: auto} /* kích thước hình cho vừa col*/
+/* làm màu mè cho font chữ*/
+.text-center{ text-align: center}
+.text-right{ text-align: right}
+.text-left{text-align: left}
+.row-boder{ border: 1px solid white;
+border-bottom: none}
+.center {
+	padding: 70px 0;}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Quicksand", "Inter",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";}
+h1{
+	font-family: "Quicksand", "Inter",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";;
+	color: rgba(241,108,18,1.00);
+	font-size: 40px
+}
+h2{
+	font-family: "Quicksand", "Inter",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
+		color: rgba(241,108,18,1.00);
+		font-size: 35px
+}
+h6{ font-family: "Inter", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+font-size: 15px
+}
+h3{ font-family: "Quicksand", "Inter",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
+		color: rgba(241,108,18,1.00);
+		font-size: 25px }
+
+/*-- gióng cac item trong row theo chieu doc (top/ center/bottom)*/
+.align-items-top{ align-items: flex-start}
+.align-items-center{ align-items: center}
+.align-items-bottom{ align-items: flex-end}
+/*-- gióng cac item trong row theo chieu ngang (left/ center/right/ chia deu)*/
+.justify-center { justify-content: center}
+.justify-left{ justify-content: flex-start}
+.justify-right{ justify-content: flex-end}
+.justify-between{ justify-content: space-between}
+.justify-around{ justify-content:space-around}
+
+.img-50 {width: 50%;height: auto}
+.img-45 {width: 45%;height: auto}
+.img-62 {width: 62%;height: auto}
+.img-30 {width: 30%;height: auto}
+.img-70 {width: 70%;height: auto}

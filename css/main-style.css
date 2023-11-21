@@ -1,0 +1,125 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body
+{
+	font-family:"Inter", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size:16px;
+
+		
+}
+nav{
+	position: fixed;
+	width: 100%;
+	padding: 3px 0;
+	background-color:rgba(255,255,255,0.7);
+	box-shadow: 0 5px 10px #ddd;
+		border: none;
+			z-index: 9999998;
+	top:0
+	
+		
+}
+section{
+	min-height: 500px;
+	padding: 100PX 0px;
+}
+footer{
+	padding: 80px 0;
+	background-color: #FFF1E8;
+	 color: #000000;
+	font-size: 15px;
+
+}
+nav .menu a
+{
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+	padding:10px 20px;
+	font-size: 20px;
+}
+nav .menu a:hover
+{
+	border-bottom: 2px solid #FF7300
+}
+.btn-primary
+{
+	font-family:"Inter", Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: rgba(255,236,221,0.8);
+	padding:10px 30px;
+	text-decoration: none;
+	color: #FF7300;
+	font-size: 20px;
+	border-radius: 10px;
+		
+}
+p {
+	font-size: 15px;
+	color: #000000
+}
+
+#gioithieu
+{
+	
+		background-color: rgba(255,210,199,0.8)
+}
+#uudai
+{
+background-image:url("../images/f48f18b418d60b1a0f9f4fdb6415456d_preview_rev_1.png");
+		background-repeat: no-repeat;
+	background-position: right top;
+	margin: 0;
+		
+}
+
+h2 a { 
+	text-decoration: none;
+	border-bottom: none;
+	color: #F4863C;
+	font-size: 25px;
+	background-color: antiquewhite;
+		padding: 10px 10px;
+	border-radius:10px;
+}
+h2 a:hover { 
+color:antiquewhite;
+	background-color: #F4863C;
+	text-decoration: underline;
+	
+}
+#muangay .h3 a {
+	
+
+font-size: 25px;
+	background-color: antiquewhite;
+	color:#F4863C
+}
+.bg-sanpham{
+	
+	background:rgba(250,250,250,1.00);
+	box-shadow: 0 5px 10px #ddd;	padding: 20px 20px;
+		border: none;
+border-radius: 10px;
+	margin: 20px
+}
+.bg-gioitheu{
+	background: rgba(235,235,235,1.00);
+	
+}
+.text-gioithieu{
+	text-decoration: underline
+}
+#sanpham{
+	
+	background-image: url( "../images/400297443_245249418569317_3049934466384287608_n.png");
+	
+}
+.h2-sanpham{
+	font-family: "Quicksand", "Inter",Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";	
+		color:#FFFFFF;
+		font-size: 35px
+}
+
+
